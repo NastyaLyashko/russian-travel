@@ -1,14 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    max-width: 1184px;
+    max-width: calc(100% - 96px);
     margin: auto;
-}
-
-@media (max-width: 1024px) {
-    .header {
-        max-width: calc(100% - 96px);
-    }
 }
 
 

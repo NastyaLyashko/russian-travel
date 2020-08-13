@@ -1,8 +1,8 @@
-.place__paragraph {
+.places__paragraph {
     margin: 0px;
 }
 
-.place__paragraph:first-child {
+.places__paragraph:first-child {
     margin-bottom: 24px;
 }
 
