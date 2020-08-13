@@ -1,0 +1,14 @@
+.footer__column {
+
+}
+
+
+@media (max-width: 680px) {
+    .footer__column {
+        margin-top: 32px;
+    }
+
+    .footer__column:first-child {
+        margin-top: 0px;
+    }
+}
