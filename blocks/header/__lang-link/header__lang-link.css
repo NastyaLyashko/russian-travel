@@ -2,7 +2,9 @@
     margin-left: 18px;
     color: #ffffff;
     text-decoration: none;
-    transition: opacity 1s linear;
+    -webkit-transition: opacity 1s linear;
+        -o-transition: opacity 1s linear;
+            transition: opacity 1s linear;
 }
 
 .header__lang-link:hover {

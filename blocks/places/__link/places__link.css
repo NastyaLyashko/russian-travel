@@ -2,7 +2,9 @@
     font-size: 18px;
     line-height: 1.22;
     color: #FFFFFF;
-    transition: opacity 1s linear;
+    -webkit-transition: opacity 1s linear;
+        -o-transition: opacity 1s linear;
+            transition: opacity 1s linear;
 }
 
 .places__link:hover {

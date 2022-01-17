@@ -1,9 +1,13 @@
 .header__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style-type: none;
     margin-top: 46px;
     margin-bottom: 0px;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     font-size: 24px;
     line-height: 1.17;
     padding: 0px;
